@@ -12,8 +12,8 @@ function App() {
   const [bgImg, setBackground] = useState(getRandom(bgImages));
 
   const handleClickRandomBackground = () => {
-    const newpharse = getRandom(dbQuotes)
-    const newimg = getRandom(bgImages)
+    const newpharse = getRandom(dbQuotes);
+    const newimg = getRandom(bgImages);
     if (phrase.phrase !== newpharse.phrase && newimg !== bgImg) {
       setPharse(newpharse);
       setBackground(newimg);

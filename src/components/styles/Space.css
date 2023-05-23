@@ -20,14 +20,14 @@
 }
 
 @media screen and (min-width: 425px) {
-    .space--world {
-      width: 450px;
-      height: 400px;
-      -moz-border-radius: 400px 400px 0 0;
-      -webkit-border-radius: 400px 400px 0 0;
-      border-radius: 400px 400px 0 0;
-    }
+  .space--world {
+    width: 450px;
+    height: 400px;
+    -moz-border-radius: 400px 400px 0 0;
+    -webkit-border-radius: 400px 400px 0 0;
+    border-radius: 400px 400px 0 0;
   }
+}
 
 @media screen and (min-width: 768px) {
   .space--world {
@@ -40,12 +40,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .space--world {
-      width: 750px;
-      height: 450px;
-      -moz-border-radius: 450px 450px 0 0;
-      -webkit-border-radius: 450px 450px 0 0;
-      border-radius: 450px 450px 0 0;
-    }
+  .space--world {
+    width: 750px;
+    height: 450px;
+    -moz-border-radius: 450px 450px 0 0;
+    -webkit-border-radius: 450px 450px 0 0;
+    border-radius: 450px 450px 0 0;
   }
-  
+}
