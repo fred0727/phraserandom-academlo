@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.main{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back1{
+  background: url("../public/images/space1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.back2{
+  background: url("../public/images/space2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.back3{
+  background: url("../public/images/space3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.back4{
+  background: url("../public/images/space4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.title{
+  color: white;
+  font-size: 2rem;
+  font-weight: lighter;
+  text-shadow: 0px 10px 50px rgba(112, 83, 160, 0.815);
+}
+
+footer{
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.5rem;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.664);
+}
+
+@media screen and (min-width: 768px) {
+  .title{
+    font-size: 2.5rem;
+  }
+
+  footer{
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .title{
+    font-size: 3rem;
+  }
+
+  .main{
+    padding-top: 7rem;
+    justify-content: start;
+  }
+
+  
+  footer{
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.card {
+  width: 300px;
+  height: auto;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.33) 100%
+  );
+  color: rgb(34, 34, 34);
+  font-family: "Press Start 2P", cursive;
+  padding: 2rem;
+  margin: 3rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border-radius: 40px;
+  font-weight: 100 !important;
+  text-shadow: 0px 0px 3px rgba(112, 83, 160, 0.548);
+  z-index: 1;
+}
+
+.animation {
+  animation-duration:2s;
+  animation-name: opacity;
+  overflow: hidden;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 500px;
+  }
+}
