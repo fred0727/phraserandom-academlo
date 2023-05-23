@@ -20,22 +20,22 @@
 }
 
 .back1{
-  background: url("./images/space1.jpg");
+  background: url("../public/images/space1.jpg");
   background-size: cover;
   background-position: center;
 }
 .back2{
-  background: url("./images/space2.jpg");
+  background: url("../public/images/space2.jpg");
   background-size: cover;
   background-position: center;
 }
 .back3{
-  background: url("./images/space3.jpg");
+  background: url("../public/images/space3.jpg");
   background-size: cover;
   background-position: center;
 }
 .back4{
-  background: url("./images/space4.jpg");
+  background: url("../public/images/space4.jpg");
   background-size: cover;
   background-position: center;
 }
