@@ -2,14 +2,14 @@
   box-sizing: content-box;
   position: absolute;
   bottom: 0;
-  width: 450px;
-  height: 400px;
+  width: 320px;
+  height: 270px;
   display: flex;
   justify-content: center;
   align-items: start;
-  -moz-border-radius: 400px 400px 0 0;
-  -webkit-border-radius: 400px 400px 0 0;
-  border-radius: 400px 400px 0 0;
+  -moz-border-radius: 320px 320px 0 0;
+  -webkit-border-radius: 320px 320px 0 0;
+  border-radius: 320px 320px 0 0;
 }
 
 .space--world img {
